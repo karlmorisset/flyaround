@@ -1,5 +1,5 @@
 # FlyAround
-[ **PHP/Symfony 4.4 Services Workshop** - Work base repository ]
+[ **PHP/Symfony 5 Services Workshop** - Work base repository ]
 
 Workshop instructions: https://wildcodeschool.github.io/workshop-php-symfony-services/
 
