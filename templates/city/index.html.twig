@@ -5,7 +5,7 @@
 {% block navbar_right %}
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class=" btn btn-success" href="{{path('city_new')}}"><i class="far fa-plus-square"></i> New City</a>
+            <a class=" btn btn-success" href="{{path('city_new')}}">New City</a>
         </li>
     </ul>
 {% endblock %}
@@ -29,7 +29,8 @@
                 <td>{{ city.longitude }}</td>
                 <td>{{ city.country }}</td>
                 <td>
-                    <a href="{{ path('city_edit', {'id': city.id}) }}" class="btn btn-sm btn-primary"><i class="fas fa-pen"></i></a>
+                    <a href="{{ path('city_edit', {'id': city.id}) }}" class="btn btn-sm btn-primary">
+                    Edit</a>
                 </td>
             </tr>
         {% else %}
