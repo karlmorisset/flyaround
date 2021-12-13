@@ -9,7 +9,7 @@ Workshop instructions: https://wildcodeschool.github.io/workshop-php-symfony-ser
 2. run `yarn install && composer install`
 3. in root foler, `cp .env .env.local` and configure your `DATABASE_URL`
 4. run `php bin/console doctrine:database:create`
-5. run `php bin/console doctrine:schema:create`
+5. run `php bin/console doctrine:migration:migrate`
 6. run `php bin/console doctrine:fixtures:load`
 
 This will populate your database with cities data.
